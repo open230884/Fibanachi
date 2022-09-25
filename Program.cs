@@ -6,8 +6,8 @@
 
 
 
-for (int i = 1; i < 40; i++)
+for (int i = 1; i < 50; i++)
 {
 
-Console.WriteLine(Fibonacci(i));
+Console.WriteLine($"f({i}) = {Fibonacci(i)}");
 } 
